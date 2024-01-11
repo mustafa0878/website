@@ -1,0 +1,108 @@
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav{
+      display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-image: linear-gradient( rgb(28, 150, 28),rgb(25, 126, 25), rgb(27, 97, 27));
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    flex-direction: row;
+    margin: 10px;
+}
+nav ul a{
+    text-decoration: none;
+    padding: 3px 4px;
+    margin: 0px 2px;
+    font-style: oblique;
+    list-style: none;
+}
+nav ul li {
+    padding: 7px 12px;
+    margin: 5px 10px;
+    text-align: center;
+    text-wrap: wrap;
+    color: white;
+}
+h3{
+    text-transform: uppercase;
+    margin: 0px;
+    text-align: justify;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 10px;
+    color: green;
+    cursor: context-menu;
+}
+img{
+    padding: 0px 20px;
+    cursor: context-menu;
+}
+nav ul li:hover{
+    color: greenyellow;
+}
+nav ul li:active{
+    background-color: rgb(6, 58, 6);
+}
+body{
+    background-color: rgb(203, 238, 203);
+}
+.parent{
+     display: flex; 
+    flex-wrap: wrap;
+     justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    padding: 5px 20px;
+}
+
+.child-1{
+     flex-grow: 3;
+    text-align: center;
+}
+.child-2{
+    flex-grow: 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center ; 
+    flex-direction:row;
+    min-width: 200px;
+    max-width: 700px;
+    min-height: 200px;
+    max-height: 700px; 
+}
+.child-2>img{
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+
+}
+.child-1>h4{
+    margin: 0px;
+    padding: 0px;
+}
+.child-1>marquee{
+    width: 200px;
+    color:green;
+    cursor: context-menu;
+}
+.child-1>h1 span{
+    color: green;
+    cursor: context-menu;
+}
+.child-1>h1{
+    color: rgb(78, 70, 70);
+    cursor: context-menu;
+}
+.child-1>h2{
+    color:  rgb(78, 70, 70);
+    cursor: context-menu;
+}
+
